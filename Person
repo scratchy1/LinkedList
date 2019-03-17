@@ -1,0 +1,20 @@
+class Person {
+    String firstName; // Attribut
+    String lastName; // Attribut
+
+    Person(String firstName, String lastName) { // Konstruktor
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    String getLastName() { // Methode
+        return lastName;
+    }
+
+    String getFirstName() { // Methode
+        return firstName;
+    }
+    public String toString() {//Überschreiben
+        return "Person namens " + lastName;
+    } 
+}
