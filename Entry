@@ -1,0 +1,11 @@
+public class Entry {
+    Person element;
+    Entry next;
+    Entry previous;
+
+    Entry(Person element, Entry next, Entry previous) {
+        this.element = element;
+        this.next = next;
+        this.previous = previous;
+    }
+}
