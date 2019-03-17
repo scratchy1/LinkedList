@@ -1,0 +1,24 @@
+public class TestLinkedList1618 {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        LinkedList1618 liste = new LinkedList1618();
+        liste.addLast(new Person("Geilo", "mat"));
+        liste.addLast(new Person("Hans", "Leberwurst"));
+        liste.addLast(new Person("Ali", "Baba"));
+        liste.addLast(new Person("Jim ", "Panse"));
+        liste.addLast(new Person("Axel", "Höhle"));
+        liste.addLast(new Person("Anna", "Bolika"));
+        liste.addLast(new Person("Phil", "Fraß"));
+        liste.addLast(new Person("Rainer", "Zufall"));
+        System.out.println(liste.getElementAt(0));
+        System.out.println(liste.getLast());
+        System.out.println(liste.getElementAt(0).getLastName()); 
+        System.out.println(liste.getLast().getFirstName());
+        //System.out.println(liste.removeLast().getLastName());
+        System.out.println(liste.getElementAt(1).getLastName());
+        System.out.println(liste.getElementAt(4).getLastName());
+        System.out.println(liste.getElementAt(7).getLastName());
+    }
+
+}
