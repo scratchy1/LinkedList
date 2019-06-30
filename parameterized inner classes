@@ -56,4 +56,4 @@ return new ListIterator();
 }
 /*Entry is a static inner class, ListIterator is a non-static inner class, therefore Entry must have a 
 type parameter T, which when Entry is used in LinkedList and other inner classes, must be instantiated 
-with ET. ListIterator does not need this, because ET is known in this class.
+with ET. ListIterator does not need this, because ET is known in this class.*/
