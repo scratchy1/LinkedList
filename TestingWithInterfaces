@@ -1,0 +1,13 @@
+public class LinkedListTest {
+
+    public static void main(String[] args) {
+        LinkedList1618<Integer> listForInteger = new LinkedList1618<Integer>();
+        listForInteger.addLast(new Integer(1));
+        listForInteger.addLast(new Integer(2));
+        listForInteger.addLast(new Integer(3));
+        for (Integer elem : listForInteger) {
+            System.out.println(elem);
+        }
+    }
+
+}
